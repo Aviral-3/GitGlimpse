@@ -1,16 +1,42 @@
-# gitglimpse
+# GitGlimpse
 
-A new Flutter project.
+The GitGlimpse is a Flutter application that connects to the GitHub API to display a list of public repositories from a specified GitHub account. Additionally, it fetches and displays the latest commit for each repository. The app showcases Flutter's capabilities for making HTTP requests, parsing JSON data, and asynchronously updating the UI.
+
+## Features
+
+- Display a list of public GitHub repositories.
+- Fetch and show the latest commit for each repository.
+- Utilize a green and red theme for UI elements.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter installed on your machine (for installation instructions, see the [Flutter official documentation](https://flutter.dev/docs/get-started/install)).
+- An IDE (Integrated Development Environment) like Android Studio, VS Code, or IntelliJ.
+- A basic understanding of Flutter and Dart.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/yourusername/gitglimpse.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd gitglimpse
+```
+3. Install the required dependencies:
+```bash
+flutter pub get
+```
+4. Run the app on your connected device or emulator:
+```bash
+flutter run
+```
+
+### Usage
+Upon launching the app, you'll see a list of public repositories fetched from the specified GitHub account. Tap on any repository to view its latest commit message, author, and date.
+   
